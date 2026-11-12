@@ -1,0 +1,452 @@
+{
+  "by_test_month": {
+    "2026-03": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.0567903253580093,
+        "minute_of_day_cos": -0.9039358943504981,
+        "minute_of_day_sin": -0.1253914267372626,
+        "owner_etf_return_bps": 0.3950992911621354,
+        "treasury_10y_change_bps": -0.10271794552270565,
+        "treasury_10y_pct": 4.167341305544306
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.5106589432088917,
+        "minute_of_day_cos": -0.9395681966356062,
+        "minute_of_day_sin": -0.09910265993252433,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.1752
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0012357602002139214,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.2999776595942443,
+        "minute_of_day_cos": 0.1027548261232575,
+        "minute_of_day_sin": 0.39575034392143993,
+        "owner_etf_return_bps": 6.53932915980252,
+        "treasury_10y_change_bps": 1.690485261408147,
+        "treasury_10y_pct": 0.07958234907867302
+      }
+    },
+    "2026-04": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.0681612467742811,
+        "minute_of_day_cos": -0.9045416670286471,
+        "minute_of_day_sin": -0.1256148150498635,
+        "owner_etf_return_bps": -0.43983767046411515,
+        "treasury_10y_change_bps": 0.08466447855205009,
+        "treasury_10y_pct": 4.185253486121915
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.5296473780065785,
+        "minute_of_day_cos": -0.939779643148619,
+        "minute_of_day_sin": -0.09859609871413996,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.1985
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0013565045817602306,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.2945269960947032,
+        "minute_of_day_cos": 0.10219809557551,
+        "minute_of_day_sin": 0.3944373715937212,
+        "owner_etf_return_bps": 15.330004267280293,
+        "treasury_10y_change_bps": 2.339441854717682,
+        "treasury_10y_pct": 0.12269524468301045
+      }
+    },
+    "2026-05": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.0959774312362158,
+        "minute_of_day_cos": -0.9048260772363099,
+        "minute_of_day_sin": -0.12012675766941192,
+        "owner_etf_return_bps": 0.4768352782398496,
+        "treasury_10y_change_bps": 0.2482785403787156,
+        "treasury_10y_pct": 4.267554063823674
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.5530865824805001,
+        "minute_of_day_cos": -0.939044258885617,
+        "minute_of_day_sin": -0.0895461851330202,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.2916
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0010195475062794858,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.2978529400924925,
+        "minute_of_day_cos": 0.10180624922931582,
+        "minute_of_day_sin": 0.3955942614129333,
+        "owner_etf_return_bps": 17.823361809412848,
+        "treasury_10y_change_bps": 2.2641022968137796,
+        "treasury_10y_pct": 0.10640309361033069
+      }
+    },
+    "2026-06": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.142637575138779,
+        "minute_of_day_cos": -0.9057312592337179,
+        "minute_of_day_sin": -0.11936511282764244,
+        "owner_etf_return_bps": 1.434360573563446,
+        "treasury_10y_change_bps": 0.08810820208631606,
+        "treasury_10y_pct": 4.393934005931683
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.5676784353587735,
+        "minute_of_day_cos": -0.9391692046600393,
+        "minute_of_day_sin": -0.09081363553187491,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.3541
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0006954387400286357,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.337945375576259,
+        "minute_of_day_cos": 0.10107499426558246,
+        "minute_of_day_sin": 0.39393743338347575,
+        "owner_etf_return_bps": 14.403541850473836,
+        "treasury_10y_change_bps": 2.3054925259094112,
+        "treasury_10y_pct": 0.11000274506406153
+      }
+    },
+    "2026-07": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.1615088257810289,
+        "minute_of_day_cos": -0.9063977939189011,
+        "minute_of_day_sin": -0.12491894988689368,
+        "owner_etf_return_bps": 0.5639387998941993,
+        "treasury_10y_change_bps": -0.009223738188997086,
+        "treasury_10y_pct": 4.468985751740163
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.5767694070600254,
+        "minute_of_day_cos": -0.9418865676481284,
+        "minute_of_day_sin": -0.09541141988458249,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.463
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0006168968034463968,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.3591500874547924,
+        "minute_of_day_cos": 0.10193073314570963,
+        "minute_of_day_sin": 0.39044643778434335,
+        "owner_etf_return_bps": 11.446888931360238,
+        "treasury_10y_change_bps": 2.4721263939997065,
+        "treasury_10y_pct": 0.07631980159022426
+      }
+    },
+    "2026-08": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.1726879521710911,
+        "minute_of_day_cos": -0.9064901657342082,
+        "minute_of_day_sin": -0.11759556913345652,
+        "owner_etf_return_bps": -0.09037854354188062,
+        "treasury_10y_change_bps": 0.16499607403252942,
+        "treasury_10y_pct": 4.523720966705756
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.596085467716814,
+        "minute_of_day_cos": -0.9423254933356879,
+        "minute_of_day_sin": -0.08490971816972079,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.5165
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0014072298985366848,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.3544191390890694,
+        "minute_of_day_cos": 0.10094385712586623,
+        "minute_of_day_sin": 0.3927559028912216,
+        "owner_etf_return_bps": 9.310584820484257,
+        "treasury_10y_change_bps": 2.1697718742930467,
+        "treasury_10y_pct": 0.09132372292030617
+      }
+    },
+    "2026-09": {
+      "all_missing_training_features": [],
+      "categorical": [],
+      "categories": {},
+      "category_reference": "first training category; unknown test categories map to all-zero indicators",
+      "constant_training_categories": [],
+      "constant_training_numeric_features": [],
+      "features": [
+        "intercept",
+        "numeric__owner_etf_return_bps",
+        "numeric__log1p_anchor_staleness_hours",
+        "numeric__minute_of_day_sin",
+        "numeric__minute_of_day_cos",
+        "numeric__treasury_10y_pct",
+        "numeric__treasury_10y_change_bps",
+        "missing__owner_etf_return_bps",
+        "missing__log1p_anchor_staleness_hours",
+        "missing__minute_of_day_sin",
+        "missing__minute_of_day_cos",
+        "missing__treasury_10y_pct",
+        "missing__treasury_10y_change_bps"
+      ],
+      "interaction_etf_median": 0.0,
+      "numeric": [
+        "owner_etf_return_bps",
+        "log1p_anchor_staleness_hours",
+        "minute_of_day_sin",
+        "minute_of_day_cos",
+        "treasury_10y_pct",
+        "treasury_10y_change_bps"
+      ],
+      "training_means": {
+        "log1p_anchor_staleness_hours": 1.2153873927706818,
+        "minute_of_day_cos": -0.9062878905125695,
+        "minute_of_day_sin": -0.10734021078042782,
+        "owner_etf_return_bps": 0.3499931136937102,
+        "treasury_10y_change_bps": 0.24233743581917114,
+        "treasury_10y_pct": 4.632093920399419
+      },
+      "training_medians": {
+        "log1p_anchor_staleness_hours": 0.6302369626464766,
+        "minute_of_day_cos": -0.9401395189098963,
+        "minute_of_day_sin": -0.06961138319701848,
+        "owner_etf_return_bps": 0.0,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 4.6466
+      },
+      "training_missing_fraction": {
+        "log1p_anchor_staleness_hours": 0.0,
+        "minute_of_day_cos": 0.0,
+        "minute_of_day_sin": 0.0,
+        "owner_etf_return_bps": 0.0020385248492908767,
+        "treasury_10y_change_bps": 0.0,
+        "treasury_10y_pct": 0.0
+      },
+      "training_scales": {
+        "log1p_anchor_staleness_hours": 1.3651067874573823,
+        "minute_of_day_cos": 0.09918662731619576,
+        "minute_of_day_sin": 0.3965883906792129,
+        "owner_etf_return_bps": 9.459547565884732,
+        "treasury_10y_change_bps": 2.26865058738289,
+        "treasury_10y_pct": 0.07205975613250436
+      }
+    }
+  }
+}

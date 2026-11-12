@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Public corporate-bond research snapshot: data coverage, model comparison, bond predictions and research downloads.">
+  <title>26B · Bond Research</title>
+  <link rel="stylesheet" href="./static/styles.css">
+  <script type="module" src="./static/app.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to research content</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#overview" aria-label="26B Bond Research home">
+        <span class="brand-mark">26<span>B</span></span>
+        <span class="brand-copy">BOND RESEARCH<span>Corporate credit laboratory</span></span>
+      </a>
+      <div class="nav-label">WORKSPACE</div>
+      <nav id="primary-nav" aria-label="Research sections">
+        <a href="#overview" data-view="overview"><span class="nav-icon" data-icon="overview"></span>Overview</a>
+        <a href="#coverage" data-view="coverage"><span class="nav-icon" data-icon="coverage"></span>Data coverage</a>
+        <a href="#models" data-view="models"><span class="nav-icon" data-icon="models"></span>Model framework</a>
+        <a href="#results" data-view="results"><span class="nav-icon" data-icon="results"></span>Model results</a>
+        <a href="#lab" data-view="lab"><span class="nav-icon" data-icon="lab"></span>Saved experiments</a>
+        <a href="#bonds" data-view="bonds"><span class="nav-icon" data-icon="bonds"></span>Bond explorer</a>
+        <a href="#buckets" data-view="buckets"><span class="nav-icon" data-icon="buckets"></span>Bucket explorer</a>
+        <a href="#downloads" data-view="downloads"><span class="nav-icon" data-icon="download"></span>Downloads</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="research-label"><span class="status-dot"></span> PUBLIC RESEARCH SNAPSHOT</div>
+        <p>Observed prices. Transparent models.<br>Reproducible comparisons.</p>
+        <div class="sidebar-rule"></div>
+        <span class="sidebar-footnote">HYG / JNK corporate bond universe</span>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="icon-button menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span data-icon="menu"></span></button>
+          <span class="breadcrumb">RESEARCH WORKSPACE <span>/</span> <strong id="breadcrumb-page">Overview</strong></span>
+        </div>
+        <div class="topbar-right"><span class="snapshot-date" id="snapshot-date">Loading research snapshot</span><span class="local-badge"><span data-icon="lock"></span>Saved results</span></div>
+      </header>
+      <main id="main-content" tabindex="-1">
+        <div id="page-content" aria-live="polite"><div class="initial-loading"><span class="loading-ring"></span><p>Opening the research workspace…</p><span>Loading the published research snapshot</span></div></div>
+      </main>
+      <footer class="workspace-footer"><span>26B <span class="footer-divider">/</span> Corporate bond price research</span><span>Historical predictions · Prices per 100 face value · Times in US Eastern</span></footer>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <div class="chart-tooltip" id="chart-tooltip" role="tooltip" hidden></div>
+</body>
+</html>

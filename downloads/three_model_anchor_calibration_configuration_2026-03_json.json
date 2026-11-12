@@ -1,0 +1,33 @@
+{
+  "config": {
+    "band_start": "2026-04-01",
+    "bootstrap_repetitions": 500,
+    "calendar_file": "reference/comovement/event_calendar_2026.csv",
+    "clock_minutes": 5,
+    "development_end": "2026-06-30",
+    "group_betas": {
+      "HYG_only": 0.612,
+      "JNK_only": 0.554,
+      "both_HYG_and_JNK": 0.65
+    },
+    "half_life_minutes": 30.0,
+    "minimum_calibration_rows": 100,
+    "minimum_daily_returns": 40,
+    "minimum_intervals": 30,
+    "oas_file": "data/external/comovement/fred_hy_oas.csv",
+    "quote_age_seconds": 120.0,
+    "random_seed": 20261103,
+    "sample_end": "2026-09-25",
+    "sample_start": "2026-01-02",
+    "selection_end": "2026-02-28",
+    "spread_fit_end": "2026-02-28",
+    "spread_shrinkage_pairs": 20,
+    "target_max_minutes": 240,
+    "trace_delay_seconds": 0.0
+  },
+  "forecast_cutoff": "2026-03-01",
+  "quote_spread_thresholds": {
+    "HYG": 0.05000000000002558,
+    "JNK": 0.05000000000002558
+  }
+}

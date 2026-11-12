@@ -1,0 +1,200 @@
+{
+  "candidate_registry": [
+    {
+      "alpha": null,
+      "candidate_id": "base",
+      "strength": 0.0,
+      "variant": "base"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "last_gap_s0.25",
+      "strength": 0.25,
+      "variant": "last_gap"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "last_gap_s0.5",
+      "strength": 0.5,
+      "variant": "last_gap"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "last_gap_s1",
+      "strength": 1.0,
+      "variant": "last_gap"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bond_bias_s0.25",
+      "strength": 0.25,
+      "variant": "bond_bias"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bond_bias_s0.5",
+      "strength": 0.5,
+      "variant": "bond_bias"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bond_bias_s1",
+      "strength": 1.0,
+      "variant": "bond_bias"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bucket_bias_s0.25",
+      "strength": 0.25,
+      "variant": "bucket_bias"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bucket_bias_s0.5",
+      "strength": 0.5,
+      "variant": "bucket_bias"
+    },
+    {
+      "alpha": null,
+      "candidate_id": "bucket_bias_s1",
+      "strength": 1.0,
+      "variant": "bucket_bias"
+    },
+    {
+      "alpha": 10.0,
+      "candidate_id": "residual_ridge_a10_s0.5",
+      "strength": 0.5,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 10.0,
+      "candidate_id": "residual_ridge_a10_s1",
+      "strength": 1.0,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 100.0,
+      "candidate_id": "residual_ridge_a100_s0.5",
+      "strength": 0.5,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 100.0,
+      "candidate_id": "residual_ridge_a100_s1",
+      "strength": 1.0,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 1000.0,
+      "candidate_id": "residual_ridge_a1000_s0.5",
+      "strength": 0.5,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 1000.0,
+      "candidate_id": "residual_ridge_a1000_s1",
+      "strength": 1.0,
+      "variant": "residual_ridge"
+    },
+    {
+      "alpha": 10.0,
+      "candidate_id": "abnormal_gap_ridge_a10_s0.5",
+      "strength": 0.5,
+      "variant": "abnormal_gap_ridge"
+    },
+    {
+      "alpha": 10.0,
+      "candidate_id": "abnormal_gap_ridge_a10_s1",
+      "strength": 1.0,
+      "variant": "abnormal_gap_ridge"
+    },
+    {
+      "alpha": 100.0,
+      "candidate_id": "abnormal_gap_ridge_a100_s0.5",
+      "strength": 0.5,
+      "variant": "abnormal_gap_ridge"
+    },
+    {
+      "alpha": 100.0,
+      "candidate_id": "abnormal_gap_ridge_a100_s1",
+      "strength": 1.0,
+      "variant": "abnormal_gap_ridge"
+    },
+    {
+      "alpha": 1000.0,
+      "candidate_id": "abnormal_gap_ridge_a1000_s0.5",
+      "strength": 0.5,
+      "variant": "abnormal_gap_ridge"
+    },
+    {
+      "alpha": 1000.0,
+      "candidate_id": "abnormal_gap_ridge_a1000_s1",
+      "strength": 1.0,
+      "variant": "abnormal_gap_ridge"
+    }
+  ],
+  "code_sha256": {
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/__init__.py": "36bfc0dd14f67cfde37fa2b2a0097794e7e83d2dde3695dff663599f100d386c",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/diagnostics.py": "385d50b851d4e15214c54ef1f0cf54815ba943169128509ffd85a0871f76b594",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/experiment.py": "2124f72e480c63816424823c06af547e4c10db8de02bbf1aa02385519cc3ee51",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/features.py": "2c4ab3f42327ec1e480f453e68dbfba66dfa78ff58a2a157cede76d31b8cdd63",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/inputs.py": "b8f86eaae3e17b6843da15b04d6b8e26fa7aa2b1135477deb4b815ef1ee5ed74",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/reporting.py": "66d07fc168c64f361f5d27e54f7182e4b28fffe0cd7b4278cbbea9a73ba747c3",
+    "src/data_exploration/corporate_bonds/fair_value/gap_adjustment/runner.py": "c63ba6108a6e3019bb439746b8ff4a6804ca4df9647be66ceca1b85fdd6f59eb"
+  },
+  "config": {
+    "abnormal_z_threshold": 2,
+    "assessment_start": "2026-07-01",
+    "bond_half_life_trades": 20,
+    "bond_shrinkage": 20,
+    "bootstrap_repetitions": 500,
+    "bucket_shrinkage": 100,
+    "cold_scale_bps": 25,
+    "correction_cap_bps": 100,
+    "evaluation_end": "2026-09-25",
+    "evaluation_start": "2026-05-01",
+    "feedback_delay_minutes": 0,
+    "gap_decay_hours": 4,
+    "history_days": 20,
+    "horizons": [
+      "next_trade",
+      "15m",
+      "30m",
+      "60m"
+    ],
+    "max_overshoot_minutes": 60,
+    "maximum_development_rmse_ratio": 1.01,
+    "minimum_development_mae_gain_bps": 0.02,
+    "minimum_training_rows": 1000,
+    "ridge_alphas": [
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "ridge_strengths": [
+      0.5,
+      1.0
+    ],
+    "scale_floor_bps": 5,
+    "seed": 20261112,
+    "selection_end": "2026-06-30",
+    "simple_strengths": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "state_clip_bps": 200,
+    "target_clip_bps": 200
+  },
+  "created_at": "2026-11-12 08:28:30.864527+00:00",
+  "input_sha256": {
+    "outputs/corporate_bonds/fair_value/comovement/runs/comovement_4716f7515df64e3eb375/etf_minute_quotes.parquet": "9d95152ca445aa1813f43ec600009ea7170e69665a5f4c93ab206a58cd9a050a",
+    "outputs/corporate_bonds/fair_value/comovement/runs/comovement_4716f7515df64e3eb375/manifest.json": "0373a010711c16d2159308623085adb67e5ca4df3356d08d0a1495f629b71043",
+    "outputs/corporate_bonds/fair_value/dashboard/runs/dashboard_f7c9436738cf7088f55a/catalog.json": "5e55e99b674841f0df80dffbb9e80a80e864c5dc411aac2159740a6db98188c9",
+    "outputs/corporate_bonds/fair_value/dashboard/runs/dashboard_f7c9436738cf7088f55a/dashboard.sqlite": "50c479a0271ce47e1165b230655e8178b5249de34b2801d72d1b17d8ead02f6f",
+    "outputs/corporate_bonds/fair_value/dashboard/runs/dashboard_f7c9436738cf7088f55a/manifest.json": "e548d89cce5eb35e60a4d72986e52ad223be288fc85ef65cebf0146ea355d6ba",
+    "outputs/corporate_bonds/fair_value/three_model/runs/three_model_754b9e2f0f874f2be70e/manifest.json": "2e1de9a9c310f27747c202d1c08e54bcee0f6d086fa8a05f288fc5df7bacd8dd",
+    "outputs/corporate_bonds/fair_value/three_model/runs/three_model_754b9e2f0f874f2be70e/predictions.parquet": "d0bbccb0bbf10529853b6c492d0ce2abfdbe373713a7f27fde6340ba9ed772c3"
+  },
+  "selection_metric": "pooled development MAE with RMSE guard"
+}

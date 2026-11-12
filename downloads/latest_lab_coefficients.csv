@@ -1,0 +1,92 @@
+test_month,feature,coefficient,unit,scale
+2026-03,intercept,0.5621405363996589,log-return basis points,indicator / intercept
+2026-03,numeric__owner_etf_return_bps,4.149191235388734,log-return basis points,one training standard deviation
+2026-03,numeric__log1p_anchor_staleness_hours,-1.9740531260631529,log-return basis points,one training standard deviation
+2026-03,numeric__minute_of_day_sin,0.14174403763102136,log-return basis points,one training standard deviation
+2026-03,numeric__minute_of_day_cos,0.3115784289214457,log-return basis points,one training standard deviation
+2026-03,numeric__treasury_10y_pct,-0.0526869313459971,log-return basis points,one training standard deviation
+2026-03,numeric__treasury_10y_change_bps,0.6829539711806297,log-return basis points,one training standard deviation
+2026-03,missing__owner_etf_return_bps,-1.320580194689035,log-return basis points,indicator / intercept
+2026-03,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-03,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-03,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-03,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-03,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-04,intercept,-0.2803473305066135,log-return basis points,indicator / intercept
+2026-04,numeric__owner_etf_return_bps,11.705177604361989,log-return basis points,one training standard deviation
+2026-04,numeric__log1p_anchor_staleness_hours,-3.1111902625334324,log-return basis points,one training standard deviation
+2026-04,numeric__minute_of_day_sin,-0.10162711912902529,log-return basis points,one training standard deviation
+2026-04,numeric__minute_of_day_cos,0.44041567055230635,log-return basis points,one training standard deviation
+2026-04,numeric__treasury_10y_pct,0.15019806302204822,log-return basis points,one training standard deviation
+2026-04,numeric__treasury_10y_change_bps,0.10961713962007066,log-return basis points,one training standard deviation
+2026-04,missing__owner_etf_return_bps,-3.0543660033599065,log-return basis points,indicator / intercept
+2026-04,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-04,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-04,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-04,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-04,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-05,intercept,0.649892527924178,log-return basis points,indicator / intercept
+2026-05,numeric__owner_etf_return_bps,14.274842946007128,log-return basis points,one training standard deviation
+2026-05,numeric__log1p_anchor_staleness_hours,-1.9890673485404093,log-return basis points,one training standard deviation
+2026-05,numeric__minute_of_day_sin,-0.4660624769972009,log-return basis points,one training standard deviation
+2026-05,numeric__minute_of_day_cos,0.02521510314712328,log-return basis points,one training standard deviation
+2026-05,numeric__treasury_10y_pct,0.17594649486376665,log-return basis points,one training standard deviation
+2026-05,numeric__treasury_10y_change_bps,-0.9156482397413654,log-return basis points,one training standard deviation
+2026-05,missing__owner_etf_return_bps,-2.20901399321653,log-return basis points,indicator / intercept
+2026-05,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-05,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-05,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-05,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-05,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-06,intercept,1.297015505959078,log-return basis points,indicator / intercept
+2026-06,numeric__owner_etf_return_bps,11.426681816498359,log-return basis points,one training standard deviation
+2026-06,numeric__log1p_anchor_staleness_hours,-0.9395144059636965,log-return basis points,one training standard deviation
+2026-06,numeric__minute_of_day_sin,0.019767006772591997,log-return basis points,one training standard deviation
+2026-06,numeric__minute_of_day_cos,0.062118853437701,log-return basis points,one training standard deviation
+2026-06,numeric__treasury_10y_pct,-0.12241200289488141,log-return basis points,one training standard deviation
+2026-06,numeric__treasury_10y_change_bps,-1.0785240259016737,log-return basis points,one training standard deviation
+2026-06,missing__owner_etf_return_bps,0.7125464132967965,log-return basis points,indicator / intercept
+2026-06,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-06,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-06,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-06,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-06,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-07,intercept,0.09775239121566007,log-return basis points,indicator / intercept
+2026-07,numeric__owner_etf_return_bps,8.159398136414136,log-return basis points,one training standard deviation
+2026-07,numeric__log1p_anchor_staleness_hours,-1.6411086388592036,log-return basis points,one training standard deviation
+2026-07,numeric__minute_of_day_sin,0.03682976016519528,log-return basis points,one training standard deviation
+2026-07,numeric__minute_of_day_cos,0.09397485453934488,log-return basis points,one training standard deviation
+2026-07,numeric__treasury_10y_pct,0.32308874664391274,log-return basis points,one training standard deviation
+2026-07,numeric__treasury_10y_change_bps,-1.383449668491149,log-return basis points,one training standard deviation
+2026-07,missing__owner_etf_return_bps,-1.34193346890476,log-return basis points,indicator / intercept
+2026-07,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-07,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-07,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-07,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-07,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-08,intercept,-0.44092230859788817,log-return basis points,indicator / intercept
+2026-08,numeric__owner_etf_return_bps,6.547096796139275,log-return basis points,one training standard deviation
+2026-08,numeric__log1p_anchor_staleness_hours,-1.6707882654794914,log-return basis points,one training standard deviation
+2026-08,numeric__minute_of_day_sin,0.30278599683372426,log-return basis points,one training standard deviation
+2026-08,numeric__minute_of_day_cos,0.37007516950034264,log-return basis points,one training standard deviation
+2026-08,numeric__treasury_10y_pct,-0.4604377309316005,log-return basis points,one training standard deviation
+2026-08,numeric__treasury_10y_change_bps,-1.0463488307455584,log-return basis points,one training standard deviation
+2026-08,missing__owner_etf_return_bps,0.14601200170713713,log-return basis points,indicator / intercept
+2026-08,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-08,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-08,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-08,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-08,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept
+2026-09,intercept,0.2554116408485875,log-return basis points,indicator / intercept
+2026-09,numeric__owner_etf_return_bps,6.931447690191408,log-return basis points,one training standard deviation
+2026-09,numeric__log1p_anchor_staleness_hours,-1.1228262852307227,log-return basis points,one training standard deviation
+2026-09,numeric__minute_of_day_sin,0.4688318029400188,log-return basis points,one training standard deviation
+2026-09,numeric__minute_of_day_cos,0.060354689653439646,log-return basis points,one training standard deviation
+2026-09,numeric__treasury_10y_pct,-0.4970775064439687,log-return basis points,one training standard deviation
+2026-09,numeric__treasury_10y_change_bps,-0.6790749376828501,log-return basis points,one training standard deviation
+2026-09,missing__owner_etf_return_bps,-0.9887501664905747,log-return basis points,indicator / intercept
+2026-09,missing__log1p_anchor_staleness_hours,0.0,log-return basis points,indicator / intercept
+2026-09,missing__minute_of_day_sin,0.0,log-return basis points,indicator / intercept
+2026-09,missing__minute_of_day_cos,0.0,log-return basis points,indicator / intercept
+2026-09,missing__treasury_10y_pct,0.0,log-return basis points,indicator / intercept
+2026-09,missing__treasury_10y_change_bps,0.0,log-return basis points,indicator / intercept

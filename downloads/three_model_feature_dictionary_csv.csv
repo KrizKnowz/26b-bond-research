@@ -1,0 +1,37 @@
+feature,role,description,timing,is_price_level,uses_etf_return
+previous_price_change,regressor,Most recent transaction-to-transaction price change available at forecast time.,strictly prior observations or known forecast clock,False,False
+previous_yield_change,regressor,Most recent transaction-to-transaction yield change available at forecast time.,strictly prior observations or known forecast clock,False,False
+log1p_time_since_previous_hours,regressor,log(1 + hours since the prior eligible TRACE trade).,strictly prior observations or known forecast clock,False,False
+log1p_prior_intertrade_hours,regressor,log(1 + duration of the preceding completed intertrade interval).,strictly prior observations or known forecast clock,False,False
+absolute_previous_price_change,regressor,Absolute value of the previous price change.,strictly prior observations or known forecast clock,False,False
+log1p_quantity_available_at_forecast,regressor,"Exact quantity or disclosed lower bound, logged; lagged in Exercise A.",strictly prior observations or known forecast clock,False,False
+quantity_capped_available_at_forecast,regressor,Capped-quantity flag; lagged in Exercise A.,strictly prior observations or known forecast clock,False,False
+prior_same_day_trade_count,regressor,Same-bond trades already observed that day at forecast time.,strictly prior observations or known forecast clock,False,False
+prior_day_trade_count,regressor,Strict eligible trade count on the previous business day.,strictly prior observations or known forecast clock,False,False
+prior_day_price_dispersion,regressor,Transaction-price standard deviation on the previous business day.,strictly prior observations or known forecast clock,False,False
+prior_day_yield_dispersion,regressor,Transaction-yield standard deviation on the previous business day.,strictly prior observations or known forecast clock,False,False
+prior_month_trade_count,regressor,Strict eligible trade count in the previous calendar month.,strictly prior observations or known forecast clock,False,False
+prior_month_active_day_fraction,regressor,Active-day fraction in the previous calendar month.,strictly prior observations or known forecast clock,False,False
+log1p_prior_month_median_intertrade_hours,regressor,Logged prior-month median intertrade duration.,strictly prior observations or known forecast clock,False,False
+prior_month_price_dispersion,regressor,Within-month price dispersion in the previous calendar month.,strictly prior observations or known forecast clock,False,False
+prior_month_unresolved_code_share,regressor,Unresolved TRACE-code share in the previous month.,strictly prior observations or known forecast clock,False,False
+prior_month_ambiguity_share,regressor,Ambiguous-record share in the previous month.,strictly prior observations or known forecast clock,False,False
+prior_month_yield_coverage,regressor,Yield-observation coverage in the previous month.,strictly prior observations or known forecast clock,False,False
+minute_of_day_sin,regressor,Cyclic sine encoding of the known forecast time.,strictly prior observations or known forecast clock,False,False
+minute_of_day_cos,regressor,Cyclic cosine encoding of the known forecast time.,strictly prior observations or known forecast clock,False,False
+lagged_market_trade_count,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_fraction_bonds_trading,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_cross_sectional_mean_return,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_cross_sectional_price_dispersion,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_median_bond_staleness_days,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_market_ATS_share,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+lagged_market_capped_trade_share,regressor,"Lagged cross-sectional TRACE common factor, available before the forecast date.",strictly prior observations or known forecast clock,False,False
+quantity_bucket_available_at_forecast,regressor,"Absolute quantity bucket; previous trade for A, current trade for B.",strictly prior observations or known forecast clock,False,False
+ats_flag_available_at_forecast,regressor,"ATS code; previous trade for A, current trade for B.",strictly prior observations or known forecast clock,False,False
+side_available_at_forecast,regressor,"TRACE side; previous trade for A, current trade for B.",strictly prior observations or known forecast clock,False,False
+reporting_party_available_at_forecast,regressor,Reporting-party type available at forecast time.,strictly prior observations or known forecast clock,False,False
+contra_party_available_at_forecast,regressor,Contra-party type available at forecast time.,strictly prior observations or known forecast clock,False,False
+day_of_week,regressor,Day of week known at forecast time.,strictly prior observations or known forecast clock,False,False
+prior_month_liquidity_class,regressor,Low/medium/high class built only from the completed prior month cross-section.,strictly prior observations or known forecast clock,False,False
+prior_month_reliability_class,regressor,Low/medium/high reliability class built only from the completed prior month.,strictly prior observations or known forecast clock,False,False
+cusip,bond_fixed_effect,"Bond identifier fixed effect; unseen CUSIPs receive all-zero bond indicators (reference-category fallback), flagged in audit.",strictly prior observations or known forecast clock,False,False

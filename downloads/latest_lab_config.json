@@ -1,0 +1,80 @@
+{
+  "config": {
+    "alpha": 100.0,
+    "cusip": "",
+    "estimator": "ridge",
+    "evaluation_mode": "walk_forward",
+    "factors": [
+      "etf_return",
+      "staleness",
+      "time_of_day",
+      "treasury_level",
+      "treasury_change"
+    ],
+    "liquidity": "",
+    "membership": "",
+    "name": "Custom return regression",
+    "rating": "",
+    "retrospective_metadata": false,
+    "sector": "",
+    "session": "core",
+    "target": "p0_return",
+    "window_months": 2,
+    "window_type": "rolling"
+  },
+  "identity": {
+    "code_sha256": "56e0966df4ec41a09380416d70edda460fff961db20169a7f85ff5f646fcf793",
+    "config": {
+      "alpha": 100.0,
+      "cusip": "",
+      "estimator": "ridge",
+      "evaluation_mode": "walk_forward",
+      "factors": [
+        "etf_return",
+        "staleness",
+        "time_of_day",
+        "treasury_level",
+        "treasury_change"
+      ],
+      "liquidity": "",
+      "membership": "",
+      "name": "Custom return regression",
+      "rating": "",
+      "retrospective_metadata": false,
+      "sector": "",
+      "session": "core",
+      "target": "p0_return",
+      "window_months": 2,
+      "window_type": "rolling"
+    },
+    "libraries": {
+      "numpy": "2.5.1",
+      "pandas": "3.0.3",
+      "scipy": "1.18.0",
+      "sklearn": "1.9.0"
+    },
+    "sources": {
+      "base_core_rows": 337067,
+      "comovement_training_manifest_sha256": "0373a010711c16d2159308623085adb67e5ca4df3356d08d0a1495f629b71043",
+      "dashboard_manifest_sha256": "e548d89cce5eb35e60a4d72986e52ad223be288fc85ef65cebf0146ea355d6ba",
+      "dashboard_run": "dashboard_f7c9436738cf7088f55a",
+      "dashboard_sha256": "50c479a0271ce47e1165b230655e8178b5249de34b2801d72d1b17d8ead02f6f",
+      "evaluation_start": "2026-03-02",
+      "excluded_no_exact_features": 163,
+      "feature_panel_sha256": "aab52c4a8e7e919c3d55c61a10583fa198591f45d22b426d16c2eb4eb0c579d4",
+      "matched_rows": 336904,
+      "return_manifest_sha256": "bc5f8e0d2e798cb4827a26e8c5b80eb5982528458002f65c9ce2f56da0c750da",
+      "return_run": "return_prediction_9d319e560025f8f8c1aa",
+      "three_model_training_manifest_sha256": "2e1de9a9c310f27747c202d1c08e54bcee0f6d086fa8a05f288fc5df7bacd8dd",
+      "training_anchor_calibration_available_at": "2026-03-01 00:00:00",
+      "training_anchor_config_sha256": "e72b094f94e85019ddadccdd66f14a17bcfc7199afb3d2218c92cdae12f5e9cf",
+      "training_anchor_month": "2026-03",
+      "training_anchors_sha256": "da0397b2e9161acd82bf284adf090d32ff8163ddbeda5da6434946641ebe62ea",
+      "training_history_end": "2026-02-27",
+      "training_history_start": "2026-01-02",
+      "training_only_rows": 96297,
+      "training_pretrade_sha256": "530d869025a32df848100723f9e5e0a643f1b5f4f3241d62df3dff1d03efb4e1"
+    },
+    "version": 3
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "assessment_start": "2026-07-01",
+  "models": {
+    "b3": {
+      "admissible_candidates": 6,
+      "alpha": 1000.0,
+      "assessment_start": "2026-07-01",
+      "baseline_development_mae_bps": 18.984773495858963,
+      "baseline_development_rmse_bps": 51.189882856020404,
+      "candidate_id": "residual_ridge_a1000_s0.5",
+      "development_mae_bps": 18.947605331789052,
+      "development_n": 97338,
+      "development_rmse_bps": 51.17044754305362,
+      "reason": "Lowest development MAE among admissible candidates",
+      "selection_end": "2026-06-30",
+      "strength": 0.5,
+      "variant": "residual_ridge"
+    },
+    "integrated": {
+      "admissible_candidates": 8,
+      "alpha": null,
+      "assessment_start": "2026-07-01",
+      "baseline_development_mae_bps": 18.315037926490465,
+      "baseline_development_rmse_bps": 51.42100262974697,
+      "candidate_id": "bond_bias_s0.5",
+      "development_mae_bps": 18.248998590517612,
+      "development_n": 97338,
+      "development_rmse_bps": 51.37524320419202,
+      "reason": "Lowest development MAE among admissible candidates",
+      "selection_end": "2026-06-30",
+      "strength": 0.5,
+      "variant": "bond_bias"
+    },
+    "p1": {
+      "admissible_candidates": 0,
+      "alpha": null,
+      "assessment_start": "2026-07-01",
+      "baseline_development_mae_bps": 17.989837680675627,
+      "baseline_development_rmse_bps": 51.67855787711702,
+      "candidate_id": "base",
+      "development_mae_bps": 17.989837680675627,
+      "development_n": 97338,
+      "development_rmse_bps": 51.67855787711702,
+      "reason": "No candidate passed development MAE/RMSE guards",
+      "selection_end": "2026-06-30",
+      "strength": 0.0,
+      "variant": "base"
+    }
+  },
+  "selection_end": "2026-06-30"
+}
